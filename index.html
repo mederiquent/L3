@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Révisions — L3 Économie, TSE</title>
+  <meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#16181c" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="assets/icone.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icone-180.png">
+  <link rel="stylesheet" href="assets/style.css">
+  <script type="module" src="assets/app.js"></script>
+</head>
+<body data-page="accueil">
+  <main id="contenu" class="page">
+    <p class="chargement">Chargement…</p>
+  </main>
+  <script>
+    if (location.protocol === 'file:') {
+      document.getElementById('contenu').innerHTML =
+        '<div class="erreur"><p><strong>Ce site doit être ouvert via un serveur web.</strong></p>' +
+        '<p>Les navigateurs bloquent la lecture des fiches quand on ouvre le fichier directement. ' +
+        'En local : lance <code>python3 -m http.server</code> à la racine du dépôt, puis ouvre ' +
+        '<code>http://localhost:8000</code>. En ligne : GitHub Pages.</p></div>';
+    }
+  </script>
+  <script nomodule>
+    document.getElementById('contenu').innerHTML = '<div class="erreur"><p>Navigateur trop ancien pour ce site.</p></div>';
+  </script>
+</body>
+</html>

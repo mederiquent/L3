@@ -1,0 +1,2 @@
+KaTeX 0.18.9 (https://katex.org) et marked 18.0.14 (https://marked.js.org), licence MIT.
+Copiés depuis npm ; seules les polices woff2 de KaTeX sont incluses.
