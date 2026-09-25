@@ -116,6 +116,7 @@ export function pageMatiere(slug, nom) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
   <title>${echapperHTML(nom)} — Révisions</title>
   <link rel="stylesheet" href="../assets/vendor/katex/katex.min.css">
   <meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
