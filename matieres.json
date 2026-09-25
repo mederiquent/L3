@@ -1,0 +1,39 @@
+{
+  "titre": "Révisions — L3 Économie, TSE",
+  "sousTitre": "Année 2026–2027",
+  "matieres": [
+    {
+      "slug": "climate-economics",
+      "nom": "Climate Economics",
+      "alias": [
+        "climat",
+        "climate"
+      ]
+    },
+    {
+      "slug": "optimisation",
+      "nom": "Optimisation",
+      "alias": [
+        "optim",
+        "opti"
+      ]
+    },
+    {
+      "slug": "probabilites",
+      "nom": "Probabilités",
+      "alias": [
+        "probas",
+        "proba"
+      ]
+    },
+    {
+      "slug": "poor-rich-capitalist",
+      "nom": "The Poor, The Rich, and The Capitalist",
+      "alias": [
+        "prc",
+        "capitalist",
+        "capitaliste"
+      ]
+    }
+  ]
+}
